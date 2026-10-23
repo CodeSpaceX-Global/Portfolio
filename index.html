@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="CodeSpaceX — developer portfolio showcasing web projects, tools, and experiments.">
+  <title>CodeSpaceX — Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="CodeSpaceX home"><span class="brand-mark">&lt;/&gt;</span><span>CodeSpace<span class="brand-x">X</span></span></a>
+    <button class="menu-toggle outline-btn" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav-link active">Home</a><a href="#about" class="nav-link">About</a><a href="#skills" class="nav-link">Skills</a><a href="#projects" class="nav-link">Projects</a><a href="#contact" class="nav-link">Contact</a>
+      <a class="outline-btn nav-cta" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> DEVELOPER PORTFOLIO <span class="eyebrow-line"></span> 2026</div>
+        <p class="hero-kicker">Hey there, I'm a</p>
+        <h1>Digital <span class="gradient-text">Builder</span><br>who loves to <span class="outline-text">create.</span></h1>
+        <p class="hero-description">I build useful web experiences, experiment with modern technology, and turn ideas into interactive digital products.</p>
+        <div class="hero-actions"><a class="outline-btn primary-btn" href="#projects">Explore my work <span>↘</span></a><a class="text-link" href="#about">More about me <span>→</span></a></div>
+        <div class="hero-meta"><div><strong>Web</strong><span>Development</span></div><div><strong>UI/UX</strong><span>Experiments</span></div><div><strong>Always</strong><span>Learning</span></div></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="visual-grid"></div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>hello-world.js</span><span class="window-menu">•••</span></div>
+          <div class="code-lines">
+            <p><span class="line-no">01</span><span class="code-purple">const</span> creator = {</p>
+            <p><span class="line-no">02</span>&nbsp; name: <span class="code-green">'CodeSpaceX'</span>,</p>
+            <p><span class="line-no">03</span>&nbsp; focus: <span class="code-green">'Web & Tools'</span>,</p>
+            <p><span class="line-no">04</span>&nbsp; ideas: <span class="code-orange">Infinity</span>,</p>
+            <p><span class="line-no">05</span>&nbsp; build() {</p>
+            <p><span class="line-no">06</span>&nbsp;&nbsp; <span class="code-blue">return</span> <span class="code-green">'Something awesome'</span>;</p>
+            <p><span class="line-no">07</span>&nbsp; }</p><p><span class="line-no">08</span>};<span class="cursor">▋</span></p>
+          </div>
+          <div class="code-footer"><span><i class="status-dot"></i> Ready to build</span><span>UTF-8&nbsp; • &nbsp;JS</span></div>
+        </div>
+        <div class="floating-chip chip-top"><span class="chip-icon">✦</span><span><b>Creative thinking</b><small>Ideas into reality</small></span></div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon purple">⌘</span><span><b>Made with curiosity</b><small>One project at a time</small></span></div>
+        <div class="visual-caption">BUILD · EXPERIMENT · IMPROVE</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT</p><h2>Curiosity is my <span class="gradient-text">superpower.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-card glass-card reveal"><div class="card-symbol">✳</div><h3>Building for the web</h3><p>I enjoy creating fast, responsive, and accessible websites that feel great on both mobile and desktop.</p></div>
+        <div class="about-copy reveal"><p class="large-copy">I'm a technology enthusiast who enjoys making ideas real through code.</p><p>This portfolio is my corner of the internet to share projects, explore new tools, and document what I'm learning. I believe good digital products should be useful, simple, and thoughtfully designed.</p><a class="text-link" href="#contact">Have an idea? Let's connect <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 / TOOLKIT</p><h2>Tools I use to <span class="gradient-text">create.</span></h2><p class="section-subtitle">A growing toolkit for building polished digital experiences.</p></div>
+      <div class="skills-grid reveal">
+        <div class="skill-item"><span class="skill-icon html-icon">5</span><div><h3>HTML5</h3><p>Semantic structure</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-item"><span class="skill-icon css-icon">✳</span><div><h3>CSS3</h3><p>Responsive interfaces</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-item"><span class="skill-icon js-icon">JS</span><div><h3>JavaScript</h3><p>Interactive features</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-item"><span class="skill-icon git-icon">⌘</span><div><h3>Git & GitHub</h3><p>Version control</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-item"><span class="skill-icon ui-icon">◈</span><div><h3>UI / UX</h3><p>Design thinking</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-item"><span class="skill-icon learn-icon">＋</span><div><h3>Learning</h3><p>Always exploring</p></div><span class="skill-arrow">↗</span></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading projects-heading reveal"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've <span class="gradient-text">built.</span></h2></div><span class="project-count">PROJECTS / <b>03</b></span></div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-art art-editor"><div class="art-top"><span>CSX_EDITOR</span><span>● LIVE IDEA</span></div><div class="mini-editor"><span class="mini-line">01&nbsp; <i>const</i> editor = {</span><span class="mini-line">02&nbsp;&nbsp; fast: <b>true</b>,</span><span class="mini-line">03&nbsp;&nbsp; creative: <b>true</b></span><span class="mini-line">04&nbsp; }</span></div><div class="art-bottom">01 / CODE TOOL</div></div><div class="project-info"><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><h3>CodeSpaceX Code Editor</h3><p>A browser-based coding playground concept focused on a clean, mobile-friendly workflow.</p><a class="project-link" href="https://codespacex-global.github.io/CodeSpaceX-Code-Editor/" target="_blank" rel="noopener noreferrer">View project <span>↗</span></a></div></article>
+        <article class="project-card reveal"><div class="project-art art-lab"><div class="lab-orb orb-one"></div><div class="lab-orb orb-two"></div><div class="lab-center">AI<span>LAB</span></div><div class="art-bottom">02 / EXPERIMENTS</div></div><div class="project-info"><div class="project-tags"><span>AI TOOLS</span><span>RESEARCH</span></div><h3>AI Tool Explorer</h3><p>A project concept for collecting helpful AI tools, practical tips, and creative experiments.</p><a class="project-link" href="#contact">Discuss this idea <span>↗</span></a></div></article>
+        <article class="project-card reveal"><div class="project-art art-web"><div class="web-card"><span class="web-star">✳</span><span class="web-title">YOUR NEXT<br>BIG IDEA.</span><span class="web-pill">DIGITAL EXPERIENCE ↗</span></div><div class="art-bottom">03 / WEB DESIGN</div></div><div class="project-info"><div class="project-tags"><span>WEB DESIGN</span><span>RESPONSIVE</span></div><h3>Modern Web Concepts</h3><p>Responsive landing page concepts with clear layouts, micro-interactions, and bold visuals.</p><a class="project-link" href="#contact">Work with me <span>↗</span></a></div></article>
+      </div>
+      <p class="project-note">These cards are editable examples. Replace them with your own projects, screenshots, and live links.</p>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-panel reveal"><div class="contact-glow"></div><p class="eyebrow">04 / GET IN TOUCH</p><h2>Have a good idea?<br><span class="gradient-text">Let's make it real.</span></h2><p class="contact-description">Have a project, collaboration, or just want to talk about technology? My inbox is open.</p><a class="outline-btn primary-btn contact-btn" href="mailto:scriptxpay@outlook.com?subject=Hello%20CodeSpaceX">Say hello <span>↗</span></a><div class="contact-bottom"><span><i class="status-dot"></i> Open to opportunities</span><span>LET'S BUILD SOMETHING USEFUL</span></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>CodeSpace<span class="brand-x">X</span></span></a><p>Designed with curiosity. Built for the web.</p><div class="footer-links"><a href="https://github.com/codespacex-global" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="mailto:scriptxpay@outlook.com">Email ↗</a></div><span class="copyright">© <span id="year"></span> CodeSpaceX</span></footer>
+  <button id="backToTop" class="back-to-top outline-btn" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
