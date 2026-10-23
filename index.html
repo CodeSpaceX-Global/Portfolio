@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aman Das | Web Developer</title>
+<meta name="description" content="Portfolio of Aman Das, a web developer who builds fast, clean websites.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home">Aman Das</a>
+  <nav id="menu" aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="theme" class="icon-btn" aria-label="Switch dark or light theme">◐</button>
+  <button id="burger" class="icon-btn burger" aria-label="Open menu" aria-expanded="false">☰</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <p class="hello">Hi, I'm Aman.</p>
+  <h1>I build <span id="role" class="role"></span><span class="caret" aria-hidden="true"></span></h1>
+  <p class="lead">Web developer from West Bengal. I turn ideas into fast, simple websites that people enjoy using.</p>
+  <div class="actions">
+    <a class="btn primary" href="#projects">See my work</a>
+    <a class="btn" href="#contact">Hire me</a>
+  </div>
+</section>
+
+<section id="about" class="wrap">
+  <h2>About me</h2>
+  <div class="about-grid">
+    <p>I'm a self-taught developer who loves clean code and thoughtful design. I started with HTML and CSS, and now I build complete responsive websites with JavaScript.</p>
+    <ul class="facts">
+      <li><strong id="c1" data-to="25">0</strong> projects built</li>
+      <li><strong id="c2" data-to="3">0</strong> years learning</li>
+      <li><strong id="c3" data-to="12">0</strong> happy clients</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills" class="wrap">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill"><span>HTML</span><div class="bar"><i data-w="95"></i></div></div>
+    <div class="skill"><span>CSS</span><div class="bar"><i data-w="90"></i></div></div>
+    <div class="skill"><span>JavaScript</span><div class="bar"><i data-w="80"></i></div></div>
+    <div class="skill"><span>Git &amp; GitHub</span><div class="bar"><i data-w="75"></i></div></div>
+    <div class="skill"><span>Responsive design</span><div class="bar"><i data-w="88"></i></div></div>
+    <div class="skill"><span>UI design</span><div class="bar"><i data-w="70"></i></div></div>
+  </div>
+</section>
+
+<section id="projects" class="wrap">
+  <h2>Products</h2>
+  <div class="filters" id="filters" role="group" aria-label="Filter products"></div>
+  <div class="grid" id="grid"><p class="muted">Loading products...</p></div>
+</section>
+
+<section id="contact" class="wrap">
+  <h2>Contact</h2>
+  <p class="lead">Have a project in mind? Send a message. It opens in your email app.</p>
+  <form id="form" novalidate>
+    <label>Name<input id="name" required autocomplete="name"></label>
+    <label>Email<input id="email" type="email" required autocomplete="email"></label>
+    <label>Message<textarea id="msg" rows="5" required></textarea></label>
+    <p id="status" role="status"></p>
+    <button class="btn primary" type="submit">Send message</button>
+  </form>
+</section>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Aman Das. Built with HTML, CSS and JavaScript.</p>
+  <p><a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> · <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
